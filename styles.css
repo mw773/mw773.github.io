@@ -51,3 +51,44 @@ h1, h2 {
 img {
     width: 300px; /* You can adjust this as per your need */
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.experience-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-suits {
+    width: 25%; /* Adjust as needed */
+    max-width: 150px; /* Adjust as needed */
+}
+
+.experience-details {
+    width: 60%; /* Adjust as needed */
+}
+
+.experience-details a {
+    color: blue;
+    text-decoration: none;
+}
+
+.experience-details h2 {
+    margin-top: 10px;
+}
