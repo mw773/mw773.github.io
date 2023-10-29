@@ -92,3 +92,8 @@ nav a {
 .experience-details h2 {
     margin-top: 10px;
 }
+
+.cb-logo {
+    width: 25%; /* Adjust as needed */
+    max-width: 150px; /* Adjust as needed */
+}
