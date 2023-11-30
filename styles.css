@@ -14,7 +14,6 @@ header {
 main {
     padding: 50px;
     text-align: left; /* Align text to the left to make space for the image beside it */
-    display: flex; /* Use flexbox to place text and image side by side */
     align-items: center; /* Align items vertically */
 }
 
