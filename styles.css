@@ -2,13 +2,36 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff; /* Changed to pure white */
 }
 
 header {
-    background-color: #fff;
+    background-color: #f0f0f0; /* Slightly gray for the header which may contain your search bar */
     padding: 10px 50px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 50px;
+    text-align: left; /* Align text to the left to make space for the image beside it */
+    display: flex; /* Use flexbox to place text and image side by side */
+    align-items: center; /* Align items vertically */
+}
+
+h1, h2 {
+    color: #333;
+    flex: 1; /* Allow text to fill the space appropriately */
+}
+
+img {
+    width: 300px; /* You can adjust this as per your need */
+    order: -1; /* This will move the image to the left side of the text */
+}
+
+/* Add a class for your own image */
+.my-face {
+    width: 300px; /* Adjust to match the Doraemon image size */
+    margin-right: 20px; /* Add some space between your image and the text */
 }
 
 nav ul {
