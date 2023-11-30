@@ -119,3 +119,48 @@ nav a {
     width: 25%; /* Adjust as needed */
     max-width: 150px; /* Adjust as needed */
 }
+
+.contact-page {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.contact-page h1 {
+    font-size: 2em; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.contact-options p {
+    font-size: 1em; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons .icon {
+    margin: 0 10px;
+    /* Add styles for the icons here */
+}
+
+.contact-icons .icon {
+    font-size: 24px; /* Example size */
+    margin: 0 10px;
+    color: #333; /* Example color */
+}
+
+.contact-icons .icon:hover {
+    color: #0077B5; /* LinkedIn blue, example hover color */
+}
+
+footer {
+    margin-top: 40px;
+}
+
+/* To change the font of the search bar to match the font in the image */
+/* Assuming you have a search bar element, you would add: */
+.search-bar {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* This is a common font similar to the one in the image */
+    /* Additional styling for your search bar */
+}
