@@ -206,3 +206,10 @@ footer {
     font-family: 'Helvetica Neue', Arial, sans-serif; /* This is a common font similar to the one in the image */
     /* Additional styling for your search bar */
 }
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333; /* or any color of your choice */
+    margin: 20px 0; /* adjust the margin as needed */
+}
