@@ -70,26 +70,34 @@ body {
 
 .projects-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if there's not enough space */
+    justify-content: space-evenly; /* Distributes space evenly around each card */
+    align-items: flex-start; /* Aligns cards at the top */
     padding: 20px;
 }
 
+
 .project-card {
+    display: flex; /* Makes the card a flex container */
+    flex-direction: column; /* Stacks flex items from top to bottom */
+    align-items: center; /* Aligns items horizontally in the center */
+    justify-content: space-between; /* Distributes space between items vertically */
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     margin: 10px;
     width: 300px; /* Adjust width as needed */
-    overflow: hidden; /* Ensures the image does not overflow the card's box */
+    height: auto; /* Adjust height as needed or set a fixed height */
 }
 
 .project-card img {
-    width: 100%;
-    display: block; /* Removes any space below the image */
+    width: 80%; /* Adjust image width as a percentage of the card width */
+    margin-top: 20px; /* Add space at the top of the image */
 }
 
 .project-info {
     padding: 15px;
     text-align: center; /* Center-align the text */
+    width: 100%; /* Ensures the text container fills the card */
 }
 
 .project-info h3 {
@@ -100,6 +108,7 @@ body {
 .project-info p {
     font-size: 1em;
     color: #333;
+    margin-bottom: 20px; /* Add space at the bottom of the paragraph */
 }
 
 
