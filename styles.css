@@ -235,3 +235,27 @@ hr {
     padding-left: 20px; /* Adjust the spacing as needed */
     border-left: 2px solid #000; /* The separating line */
 }
+
+
+.resume-container {
+    text-align: center; /* Center the PDF in the container */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+/* Style for the download button */
+.resume-download-button {
+    display: inline-block; /* Allows margin and padding to be applied */
+    background-color: #007BFF; /* Button color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    margin: 20px 0; /* Margin around the button for spacing */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1em; /* Font size for the button text */
+    font-weight: bold; /* Make the font a bit heavier */
+}
+
+/* Add some hover effects for the button */
+.resume-download-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
